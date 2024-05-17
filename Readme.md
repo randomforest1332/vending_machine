@@ -8,7 +8,7 @@ This is a simple vending machine API built with FastAPI. It allows users with a 
 
 1. Clone the repository
 ```
-git clone <repository-url>
+git clone git@github.com:randomforest1332/vending_machine.git
 cd vending_machine
 ```
 2. Install the dependencies
