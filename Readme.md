@@ -39,13 +39,17 @@ Open your browser and navigate to `http://127.0.0.1:8000/docs` to view and inter
 ### User Endpoints
 
 - `POST /users/`: Create a new user
-- `GET /users/`: Get a list of users
 - `GET /users/{user_id}`: Get details of a specific user
+- `PUT /users/{user_id}`: Update user
+- `DEL /users/{user_id}`: Delete user
 
 ### Product Endpoints
 
 - `POST /products/`: Create a new product (Seller only)
+- `PUT /products/{product_id}`: Update a product (Seller only)
+- `DEL /products/{product_id}`: Delete a product (Seller only)
 - `GET /products/`: Get a list of products
+- `GET /products/{product_id}`: Get a details of a specific product
 
 ### Deposit Endpoints
 
